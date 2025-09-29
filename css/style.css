@@ -105,12 +105,12 @@ tbody tr:hover {
   background: #f1f1f1;
 }
 
-.logout-container {
+.logoutcontainer {
   display: flex;
   justify-content: flex-end;
 }
 
-.promedio-box {
+.promediobox {
   background: #f0f0f0;
   padding: 12px 20px;
   border-radius: 10px;
@@ -122,14 +122,14 @@ tbody tr:hover {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.promedio-box span {
+.promediobox span {
   display: block;
   font-size: 22px;
   margin-top: 5px;
   color: #333;
 }
 
-.header-info {
+.headerinfo {
   display: flex;
   justify-content: center;
   gap: 20px;
