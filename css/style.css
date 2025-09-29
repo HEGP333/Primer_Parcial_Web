@@ -131,8 +131,8 @@ tbody tr:hover {
 
 .header-info {
   display: flex;
-  justify-content: center; /* centramos horizontalmente */
-  gap: 20px; /* espacio entre info y promedio */
+  justify-content: center;
+  gap: 20px;
   align-items: flex-start;
   margin-bottom: 10px;
 }
