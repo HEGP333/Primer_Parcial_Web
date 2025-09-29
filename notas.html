@@ -10,11 +10,17 @@
 <body>
   <div class="container">
     <img src="img/logoU.png" alt="UFPS Logo" class="logo">
-    <div class="info">
-      <p><b>Código:</b> <span id="codigoEst"></span></p>
-      <p><b>Nombre:</b> <span id="nombreEst"></span></p>
-      <p><b>Promedio:</b> <span id="promedioEst"></span></p>
+    <div class="header-info">
+      <div class="info">
+        <p><b>Código:</b> <span id="codigoEst"></span></p>
+        <p><b>Nombre:</b> <span id="nombreEst"></span></p>
+      </div>
+      <div class="promedio-box">
+        <p><b>Promedio</b></p>
+        <span id="promedioEst">0.00</span>
+      </div>
     </div>
+    <h3 class="relacion">Relación de asignaturas cursadas</h3>
     <table>
       <thead>
         <tr>
@@ -29,7 +35,9 @@
       </thead>
       <tbody id="tablaNotas"></tbody>
     </table>
-    <button id="logoutBtn">Cerrar Sesión</button>
+    <div class="logout-container">
+      <button id="logoutBtn">Cerrar Sesión</button>
+    </div>
   </div>
 </body>
 </html>
